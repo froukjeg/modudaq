@@ -6785,7 +6785,6 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 			<Item Name="makePoissonDist.vi" Type="VI" URL="../makePoissonDist.vi"/>
 			<Item Name="setfracLUT.vi" Type="VI" URL="../setfracLUT.vi"/>
 			<Item Name="TopLevelFPGA2.0.lvbitx" Type="Document" URL="../FPGA Bitfiles/TopLevelFPGA2.0.lvbitx"/>
-			<Item Name="ModuDAQ_FPGATarget_TopLevelFPGAw8ra_+uETqx0Rcow.lvbitx" Type="Document" URL="../FPGA Bitfiles/ModuDAQ_FPGATarget_TopLevelFPGAw8ra_+uETqx0Rcow.lvbitx"/>
 			<Item Name="CombineSlow.vi" Type="VI" URL="../CombineSlow.vi"/>
 			<Item Name="CAENHVWrapper.dll" Type="Document" URL="CAENHVWrapper.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -6793,6 +6792,7 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 			<Item Name="ArduinoParse.vi" Type="VI" URL="../ArduinoParse.vi"/>
 			<Item Name="CAENHV Get Ch Param Prop Single.vi" Type="VI" URL="../CAENHVs/CAEN/labview/CAENHVWrapper/VIs/CAENHV Get Ch Param Prop Single.vi"/>
 			<Item Name="CAENHV Get Ch Param Prop Numeric.vi" Type="VI" URL="../CAENHVs/CAEN/labview/CAENHVWrapper/VIs/CAENHV Get Ch Param Prop Numeric.vi"/>
+			<Item Name="ModuDAQ_FPGATarget_TopLevelFPGAw8ra_rtEknzw1e2s.lvbitx" Type="Document" URL="../FPGA Bitfiles/ModuDAQ_FPGATarget_TopLevelFPGAw8ra_rtEknzw1e2s.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
