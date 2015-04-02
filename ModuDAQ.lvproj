@@ -6776,6 +6776,13 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			</Item>
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="CAENHVWrapper.lvlib" Type="Library" URL="/&lt;userlib&gt;/CAENHVWrapper/CAENHVWrapper.lvlib"/>
+				<Item Name="CAENHVWrapper.dll" Type="Document" URL="/&lt;userlib&gt;/CAENHVWrapper/CAENHVWrapper.dll"/>
+				<Item Name="PARAM_TYPE.ctl" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/Types/PARAM_TYPE.ctl"/>
+				<Item Name="PARAM_MODE.ctl" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/Types/PARAM_MODE.ctl"/>
+				<Item Name="Error Converter (ErrCode or Status).vi" Type="VI" URL="/&lt;userlib&gt;/CAENHVWrapper/subvi/Error Converter (ErrCode or Status).vi"/>
+			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -6786,11 +6793,7 @@ LEDsArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1
 			<Item Name="TopLevelFPGA2.0.lvbitx" Type="Document" URL="../FPGA Bitfiles/TopLevelFPGA2.0.lvbitx"/>
 			<Item Name="CombineSlow.vi" Type="VI" URL="../CombineSlow.vi"/>
 			<Item Name="ArduinoParse.vi" Type="VI" URL="../ArduinoParse.vi"/>
-			<Item Name="ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx" Type="Document" URL="../FPGA Bitfiles/ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx"/>
-			<Item Name="XDNodeRunTimeDep.lvlib" Type="Library" URL="/&lt;vilib&gt;/Platform/TimedLoop/XDataNode/XDNodeRunTimeDep.lvlib"/>
-			<Item Name="CAENHVWrapper.dll" Type="Document" URL="CAENHVWrapper.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
+			<Item Name="ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx" Type="Document" URL="../../../Documents/modudaq-master(march.new) - Copy/FPGA Bitfiles/ModuDAQ_FPGATarget_TopLevelFPGAw8LE_8T5P+CgHwo4.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
